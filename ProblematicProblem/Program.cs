@@ -25,6 +25,7 @@ namespace ProblematicProblem
                 else
                 {
                     cont = false;
+                Environment.Exit(0);
                 }
 
                 Console.WriteLine();
