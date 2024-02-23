@@ -70,7 +70,7 @@ namespace ProblematicProblem
 
                         Console.WriteLine();
                         Console.WriteLine("Would you like to add more? yes/no: ");
-                        addToList = (Console.ReadLine().ToLower() == "redo") ? true : false;
+                        addToList = (Console.ReadLine().ToLower() == "yes") ? true : false;
                 }
                 }
 
